@@ -116,3 +116,15 @@ h1, h2 {
 #resBtn{
 	width: 50%;
 }
+
+content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
