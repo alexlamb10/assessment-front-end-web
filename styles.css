@@ -70,7 +70,7 @@ h1, h2 {
 	width: 30%;
 }
 
-.single-res-pic {
+.single-res-pic, .single-park-pic {
 	max-height: 130px;
 	width: 200px;
 }
@@ -79,11 +79,29 @@ h1, h2 {
 	display: flex;
 	width: 100%;
 	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 3vh;
 }
 
-.single-res {
+.single-res, .single-park {
+	margin: 3vh 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.about-Roy {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about-Roy > h3 {
+	text-decoration: underline;
+	color: ;
+}
+
+.single-park > p{
+	font-size: small;
 }
