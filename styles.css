@@ -105,3 +105,14 @@ h1, h2 {
 .single-park > p{
 	font-size: small;
 }
+
+.res-picker {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+
+#resBtn{
+	width: 50%;
+}
